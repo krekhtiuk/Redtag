@@ -10,6 +10,13 @@
     </customProperties>
     <description>Changed approach for Author</description>
     <dynamicChoiceSets>
+        <name>Author_Choice</name>
+        <dataType>String</dataType>
+        <displayField>Name</displayField>
+        <object>Author__c</object>
+        <valueField>Id</valueField>
+    </dynamicChoiceSets>
+    <dynamicChoiceSets>
         <name>choiceCoverbook</name>
         <dataType>Picklist</dataType>
         <displayField xsi:nil="true"/>
@@ -43,6 +50,7 @@
     </dynamicChoiceSets>
     <environments>Default</environments>
     <interviewLabel>Screen Flow Add a new book {!$Flow.CurrentDateTime}</interviewLabel>
+    <isAdditionalPermissionRequiredToRun>true</isAdditionalPermissionRequiredToRun>
     <label>Screen Flow Add a new book</label>
     <processMetadataValues>
         <name>BuilderType</name>
@@ -71,7 +79,7 @@
         <inputAssignments>
             <field>Author__c</field>
             <value>
-                <elementReference>AuthorField.recordId</elementReference>
+                <elementReference>Author.selectedChoiceValues</elementReference>
             </value>
         </inputAssignments>
         <inputAssignments>
@@ -113,6 +121,7 @@
         <object>Book__c</object>
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordCreates>
+    <runInMode>SystemModeWithoutSharing</runInMode>
     <screens>
         <name>Add_a_new_book</name>
         <label>Add a new book</label>
@@ -141,29 +150,13 @@
             </styleProperties>
         </fields>
         <fields>
-            <name>AuthorField</name>
-            <extensionName>flowruntime:lookup</extensionName>
-            <fieldType>ComponentInstance</fieldType>
-            <inputParameters>
-                <name>fieldApiName</name>
-                <value>
-                    <stringValue>Author__c</stringValue>
-                </value>
-            </inputParameters>
-            <inputParameters>
-                <name>label</name>
-                <value>
-                    <stringValue>Author</stringValue>
-                </value>
-            </inputParameters>
-            <inputParameters>
-                <name>objectApiName</name>
-                <value>
-                    <stringValue>Book__c</stringValue>
-                </value>
-            </inputParameters>
+            <name>Author</name>
+            <choiceReferences>Author_Choice</choiceReferences>
+            <extensionName>flowruntime:choiceLookup</extensionName>
+            <fieldText>Author</fieldText>
+            <fieldType>ComponentChoice</fieldType>
             <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
-            <isRequired>true</isRequired>
+            <isRequired>false</isRequired>
             <storeOutputAutomatically>true</storeOutputAutomatically>
             <styleProperties>
                 <verticalAlignment>

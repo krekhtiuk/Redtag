@@ -49,6 +49,7 @@
     </dynamicChoiceSets>
     <environments>Default</environments>
     <interviewLabel>Screen Flow Update existing book {!$Flow.CurrentDateTime}</interviewLabel>
+    <isAdditionalPermissionRequiredToRun>true</isAdditionalPermissionRequiredToRun>
     <label>Screen Flow Update existing book</label>
     <processMetadataValues>
         <name>BuilderType</name>
@@ -141,6 +142,7 @@
         </inputAssignments>
         <object>Book__c</object>
     </recordUpdates>
+    <runInMode>SystemModeWithoutSharing</runInMode>
     <screens>
         <name>Get_existing_book</name>
         <label>Get existing book</label>

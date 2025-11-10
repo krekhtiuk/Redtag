@@ -47,6 +47,7 @@
         <expression>{!First_Name} + &apos; &apos; + {!Last_Name}</expression>
     </formulas>
     <interviewLabel>Screen Flow Add new author {!$Flow.CurrentDateTime}</interviewLabel>
+    <isAdditionalPermissionRequiredToRun>true</isAdditionalPermissionRequiredToRun>
     <label>Screen Flow Add new author</label>
     <processMetadataValues>
         <name>BuilderType</name>

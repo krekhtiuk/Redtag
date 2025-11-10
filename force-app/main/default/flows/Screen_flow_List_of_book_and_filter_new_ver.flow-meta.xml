@@ -160,6 +160,7 @@
     </dynamicChoiceSets>
     <environments>Default</environments>
     <interviewLabel>Screen flow List of book and filter new ver {!$Flow.CurrentDateTime}</interviewLabel>
+    <isAdditionalPermissionRequiredToRun>true</isAdditionalPermissionRequiredToRun>
     <label>Screen flow List of book and filter new ver</label>
     <processMetadataValues>
         <name>BuilderType</name>
@@ -222,6 +223,7 @@
         <queriedFields>Type__c</queriedFields>
         <queriedFields>Author_Name__c</queriedFields>
     </recordLookups>
+    <runInMode>SystemModeWithoutSharing</runInMode>
     <screens>
         <name>List_of_books</name>
         <label>List of books</label>

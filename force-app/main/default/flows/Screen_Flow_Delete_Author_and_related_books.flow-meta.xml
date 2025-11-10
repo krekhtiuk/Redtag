@@ -29,6 +29,7 @@
     </dynamicChoiceSets>
     <environments>Default</environments>
     <interviewLabel>Screen f {!$Flow.CurrentDateTime}</interviewLabel>
+    <isAdditionalPermissionRequiredToRun>true</isAdditionalPermissionRequiredToRun>
     <label>Screen Flow Delete Author and related books</label>
     <processMetadataValues>
         <name>BuilderType</name>
@@ -82,6 +83,7 @@
         </filters>
         <object>Book__c</object>
     </recordDeletes>
+    <runInMode>SystemModeWithoutSharing</runInMode>
     <screens>
         <name>Delete_author_screen</name>
         <label>Delete author screen</label>

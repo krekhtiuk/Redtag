@@ -39,6 +39,7 @@
         <expression>LEFT({!$Api.Enterprise_Server_URL_590}, FIND( &apos;/services&apos;, {!$Api.Enterprise_Server_URL_590}))+&apos;/&apos;+&apos;servlet/PrintableViewDownloadServlet?isdtp=p1&amp;reportId=&apos;+{!Get_Report_ID.Id}+&apos;&amp;detailsOnly=true&apos;</expression>
     </formulas>
     <interviewLabel>Screen Flow Export Books {!$Flow.CurrentDateTime}</interviewLabel>
+    <isAdditionalPermissionRequiredToRun>true</isAdditionalPermissionRequiredToRun>
     <label>Screen Flow Export Books</label>
     <processMetadataValues>
         <name>BuilderType</name>
@@ -80,6 +81,7 @@
         <object>Report</object>
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
+    <runInMode>SystemModeWithoutSharing</runInMode>
     <start>
         <locationX>0</locationX>
         <locationY>0</locationY>
@@ -87,5 +89,5 @@
             <targetReference>Get_Report_ID</targetReference>
         </connector>
     </start>
-    <status>Active</status>
+    <status>Obsolete</status>
 </Flow>

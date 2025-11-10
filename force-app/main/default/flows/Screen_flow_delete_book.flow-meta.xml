@@ -12,16 +12,12 @@
         <name>Book</name>
         <dataType>String</dataType>
         <displayField>Name</displayField>
-        <limit>20</limit>
         <object>Book__c</object>
-        <outputAssignments>
-            <assignToReference>Book_1.selectedChoiceLabels</assignToReference>
-            <field>Book_cover__c</field>
-        </outputAssignments>
         <valueField>Name</valueField>
     </dynamicChoiceSets>
     <environments>Default</environments>
     <interviewLabel>Screen flow delete book {!$Flow.CurrentDateTime}</interviewLabel>
+    <isAdditionalPermissionRequiredToRun>true</isAdditionalPermissionRequiredToRun>
     <label>Screen flow delete book</label>
     <processMetadataValues>
         <name>BuilderType</name>
@@ -57,6 +53,7 @@
         </filters>
         <object>Book__c</object>
     </recordDeletes>
+    <runInMode>SystemModeWithoutSharing</runInMode>
     <screens>
         <name>Delete_book</name>
         <label>Delete book</label>
