@@ -1,0 +1,73 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "005d200000GuLBpAAN",
+      "createdByName": "Vira Krekhtiuk",
+      "createdDate": "2025-11-07T12:35:42.000Z",
+      "fileName": "tabs/Author__c.tab",
+      "fullName": "Author__c",
+      "id": "01rd200000aICKcAAO",
+      "lastModifiedById": "005d200000GuLBpAAN",
+      "lastModifiedByName": "Vira Krekhtiuk",
+      "lastModifiedDate": "2025-11-07T12:35:42.000Z",
+      "manageableState": "unmanaged",
+      "type": "CustomTab"
+    },
+    {
+      "createdById": "005d200000GuLBpAAN",
+      "createdByName": "Vira Krekhtiuk",
+      "createdDate": "2025-11-07T12:35:26.000Z",
+      "fileName": "tabs/Book__c.tab",
+      "fullName": "Book__c",
+      "id": "01rd200000aI7RiAAK",
+      "lastModifiedById": "005d200000GuLBpAAN",
+      "lastModifiedByName": "Vira Krekhtiuk",
+      "lastModifiedDate": "2025-11-07T12:35:26.000Z",
+      "manageableState": "unmanaged",
+      "type": "CustomTab"
+    },
+    {
+      "createdById": "005d200000GuLBpAAN",
+      "createdByName": "Vira Krekhtiuk",
+      "createdDate": "2025-11-06T12:10:16.000Z",
+      "fileName": "tabs/trlhdtips__Install_a_Package.tab",
+      "fullName": "trlhdtips__Install_a_Package",
+      "id": "01rd200000aAtOYAA0",
+      "lastModifiedById": "005d200000GuLBpAAN",
+      "lastModifiedByName": "Vira Krekhtiuk",
+      "lastModifiedDate": "2025-11-06T12:10:16.000Z",
+      "manageableState": "installed",
+      "namespacePrefix": "trlhdtips",
+      "type": "CustomTab"
+    },
+    {
+      "createdById": "005d200000GuLBpAAN",
+      "createdByName": "Vira Krekhtiuk",
+      "createdDate": "2025-11-06T12:10:16.000Z",
+      "fileName": "tabs/trlhdtips__Welcome.tab",
+      "fullName": "trlhdtips__Welcome",
+      "id": "01rd200000aAtOZAA0",
+      "lastModifiedById": "005d200000GuLBpAAN",
+      "lastModifiedByName": "Vira Krekhtiuk",
+      "lastModifiedDate": "2025-11-06T12:10:16.000Z",
+      "manageableState": "installed",
+      "namespacePrefix": "trlhdtips",
+      "type": "CustomTab"
+    },
+    {
+      "createdById": "005d200000GuLBpAAN",
+      "createdByName": "Vira Krekhtiuk",
+      "createdDate": "2025-11-06T12:10:16.000Z",
+      "fileName": "tabs/trlhdtips__Get_Your_Login_Credentials.tab",
+      "fullName": "trlhdtips__Get_Your_Login_Credentials",
+      "id": "01rd200000aAtOXAA0",
+      "lastModifiedById": "005d200000GuLBpAAN",
+      "lastModifiedByName": "Vira Krekhtiuk",
+      "lastModifiedDate": "2025-11-06T12:10:16.000Z",
+      "manageableState": "installed",
+      "namespacePrefix": "trlhdtips",
+      "type": "CustomTab"
+    }
+  ]
+}
